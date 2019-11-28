@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeatherInfo.API</name>
+    </assembly>
+    <members>
+        <member name="T:WeatherInfo.API.Controllers.WeatherForecastController">
+            <summary>
+            WeatherForecastController
+            </summary>
+        </member>
+        <member name="M:WeatherInfo.API.Controllers.WeatherForecastController.#ctor(WeatherInfo.Services.IWeatherForecastService,wheatherInfo.Utilities.ExceptionHelper)">
+            <summary>
+            WeatherForecastController
+            </summary>
+            <param name="_weatherService"></param>
+            <param name="_exceptionHelper"></param>
+        </member>
+        <member name="M:WeatherInfo.API.Controllers.WeatherForecastController.GetWeatherForecast(WeatherInfo.Entities.SearchCriteria)">
+             <summary>
+             Gets the weather forecast.
+             </summary>
+            <param name="searchCriteria"></param>
+             <returns></returns>
+        </member>
+        <member name="M:WeatherInfo.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+             This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>        
+        </member>
+    </members>
+</doc>

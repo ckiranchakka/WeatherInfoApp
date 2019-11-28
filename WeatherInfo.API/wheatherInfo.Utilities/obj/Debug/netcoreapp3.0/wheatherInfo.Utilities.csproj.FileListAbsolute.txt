@@ -1,0 +1,16 @@
+E:\vue\WeatherInfo.API\wheatherInfo.Utilities\bin\Debug\netcoreapp3.0\wheatherInfo.Utilities.deps.json
+E:\vue\WeatherInfo.API\wheatherInfo.Utilities\bin\Debug\netcoreapp3.0\wheatherInfo.Utilities.dll
+E:\vue\WeatherInfo.API\wheatherInfo.Utilities\bin\Debug\netcoreapp3.0\wheatherInfo.Utilities.pdb
+E:\vue\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.csprojAssemblyReference.cache
+E:\vue\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.AssemblyInfoInputs.cache
+E:\vue\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.AssemblyInfo.cs
+E:\vue\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.dll
+E:\vue\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.pdb
+F:\Task\WeatherInfo.API\wheatherInfo.Utilities\bin\Debug\netcoreapp3.0\wheatherInfo.Utilities.deps.json
+F:\Task\WeatherInfo.API\wheatherInfo.Utilities\bin\Debug\netcoreapp3.0\wheatherInfo.Utilities.dll
+F:\Task\WeatherInfo.API\wheatherInfo.Utilities\bin\Debug\netcoreapp3.0\wheatherInfo.Utilities.pdb
+F:\Task\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.csprojAssemblyReference.cache
+F:\Task\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.AssemblyInfoInputs.cache
+F:\Task\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.AssemblyInfo.cs
+F:\Task\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.dll
+F:\Task\WeatherInfo.API\wheatherInfo.Utilities\obj\Debug\netcoreapp3.0\wheatherInfo.Utilities.pdb

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherInfo.Entities\WeatherInfo.Entities.csproj" />
+    <ProjectReference Include="..\WeatherInfo.RequestHandlers\WeatherInfo.RequestHandlers.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+E:\vue\WeatherInfo.API\WeatherInfo.RequestHandlers\bin\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.deps.json
+E:\vue\WeatherInfo.API\WeatherInfo.RequestHandlers\bin\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.dll
+E:\vue\WeatherInfo.API\WeatherInfo.RequestHandlers\bin\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.pdb
+E:\vue\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.AssemblyInfoInputs.cache
+E:\vue\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.AssemblyInfo.cs
+E:\vue\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.dll
+E:\vue\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.pdb
+F:\Task\WeatherInfo.API\WeatherInfo.RequestHandlers\bin\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.deps.json
+F:\Task\WeatherInfo.API\WeatherInfo.RequestHandlers\bin\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.dll
+F:\Task\WeatherInfo.API\WeatherInfo.RequestHandlers\bin\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.pdb
+F:\Task\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.csprojAssemblyReference.cache
+F:\Task\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.AssemblyInfoInputs.cache
+F:\Task\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.AssemblyInfo.cs
+F:\Task\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.dll
+F:\Task\WeatherInfo.API\WeatherInfo.RequestHandlers\obj\Debug\netcoreapp3.0\WeatherInfo.RequestHandlers.pdb

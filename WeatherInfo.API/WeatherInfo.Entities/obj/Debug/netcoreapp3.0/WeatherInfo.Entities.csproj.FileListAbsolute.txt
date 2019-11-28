@@ -1,0 +1,16 @@
+E:\vue\WeatherInfo.API\WeatherInfo.Entities\bin\Debug\netcoreapp3.0\WeatherInfo.Entities.deps.json
+E:\vue\WeatherInfo.API\WeatherInfo.Entities\bin\Debug\netcoreapp3.0\WeatherInfo.Entities.dll
+E:\vue\WeatherInfo.API\WeatherInfo.Entities\bin\Debug\netcoreapp3.0\WeatherInfo.Entities.pdb
+E:\vue\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.AssemblyInfoInputs.cache
+E:\vue\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.AssemblyInfo.cs
+E:\vue\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.dll
+E:\vue\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.pdb
+E:\vue\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.csprojAssemblyReference.cache
+F:\Task\WeatherInfo.API\WeatherInfo.Entities\bin\Debug\netcoreapp3.0\WeatherInfo.Entities.deps.json
+F:\Task\WeatherInfo.API\WeatherInfo.Entities\bin\Debug\netcoreapp3.0\WeatherInfo.Entities.dll
+F:\Task\WeatherInfo.API\WeatherInfo.Entities\bin\Debug\netcoreapp3.0\WeatherInfo.Entities.pdb
+F:\Task\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.csprojAssemblyReference.cache
+F:\Task\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.AssemblyInfoInputs.cache
+F:\Task\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.AssemblyInfo.cs
+F:\Task\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.dll
+F:\Task\WeatherInfo.API\WeatherInfo.Entities\obj\Debug\netcoreapp3.0\WeatherInfo.Entities.pdb
