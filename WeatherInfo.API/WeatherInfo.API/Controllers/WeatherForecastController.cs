@@ -7,6 +7,9 @@ using Microsoft.Extensions.Logging;
 using WeatherInfo.Services;
 using wheatherInfo.Utilities;
 using WeatherInfo.Entities;
+using Microsoft.Extensions.Caching.Memory;
+using IMemoryCache = Microsoft.Extensions.Caching.Memory.IMemoryCache;
+
 namespace WeatherInfo.API.Controllers
 {
 
@@ -21,15 +24,17 @@ namespace WeatherInfo.API.Controllers
         #region Constructor
         private readonly IWeatherForecastService weatherService;
         private readonly ExceptionHelper exceptionHelper;
+        private readonly IMemoryCache memoryCache;
         /// <summary>
         /// WeatherForecastController
         /// </summary>
         /// <param name="_weatherService"></param>
         /// <param name="_exceptionHelper"></param>
-        public WeatherForecastController(IWeatherForecastService _weatherService, ExceptionHelper _exceptionHelper)
+        public WeatherForecastController(IWeatherForecastService _weatherService, ExceptionHelper _exceptionHelper, IMemoryCache _memoryCache)
         {
             weatherService = _weatherService;
             exceptionHelper = _exceptionHelper;
+            memoryCache = _memoryCache;
         }
         #endregion
         /// <summary>
@@ -43,61 +48,43 @@ namespace WeatherInfo.API.Controllers
         {
             try
             {
-                var result = await weatherService.GetWeatherForecast(searchCriteria);
-                return Ok(result);
+                WeatherViewModel weatherViewModel;
+
+                if (searchCriteria == null || ((searchCriteria.isZipCode && string.IsNullOrEmpty(searchCriteria.ZipCode)) || (!searchCriteria.isZipCode && string.IsNullOrEmpty(searchCriteria.City))))
+                    return BadRequest("Enter valid details");
+
+                string searchText = string.Empty;
+                //check for zipcode or city to filter from memory cache 
+                if (searchCriteria.isZipCode)
+                {
+                    searchText = searchCriteria.ZipCode;
+                }
+                else
+                {
+                    searchText = searchCriteria.City;
+                }
+
+                //set into cache
+                bool isExist = memoryCache.TryGetValue(searchText, out weatherViewModel);
+                if (!isExist)
+                {
+                    weatherViewModel = await weatherService.GetWeatherForecast(searchCriteria);
+                    var cacheEntryOptions = new MemoryCacheEntryOptions()
+            .SetSlidingExpiration(TimeSpan.FromMinutes(60));
+                    memoryCache.Set(searchText, weatherViewModel, cacheEntryOptions);
+                }
+                else
+                {
+                    weatherViewModel = memoryCache.Get<WeatherViewModel>(searchText);
+                }
+
+                return Ok(weatherViewModel);
             }
             catch (Exception ex)
             {
                 return exceptionHelper.GetResponseStatus(ex);
+                //Log error details
             }
         }
-        //private static readonly string[] Summaries = new[]
-        //{
-        //    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        //};
-
-        //private readonly ILogger<WeatherForecastController> _logger;
-
-        //public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
-        //[HttpGet]
-        //public IEnumerable<WeatherForecast> Get()
-        //{
-        //    var rng = new Random();
-        //    return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        //    {
-        //        Date = DateTime.Now.AddDays(index),
-        //        TemperatureC = rng.Next(-20, 55),
-        //        Summary = Summaries[rng.Next(Summaries.Length)]
-        //    })
-        //    .ToArray();
-        //}
-
-
-
-
-        ///// <summary>
-        ///// Gets the agencies.
-        ///// </summary>
-        /////<param name="agencyId"></param>
-        ///// <returns></returns>
-        //[ProducesResponseType(typeof(AgencyViewModel), 200)]
-        //[HttpGet("{agencyId}")]
-        //public async Task<IActionResult> GetWeatherForecast(int agencyId)
-        //{
-        //    try
-        //    {
-        //        var result = await agencyService.GetWeatherForecast(agencyId);
-        //        return Ok(result);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return exceptionHelper.GetResponseStatus(ex);
-        //        //return exceptionHelper.GetResponseStatus(ex);
-        //    }
-        //}
     }
 }

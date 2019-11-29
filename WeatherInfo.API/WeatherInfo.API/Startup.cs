@@ -27,20 +27,22 @@ namespace WeatherInfo.API
         {
             Configuration = configuration;
         }
-
-        public IConfiguration Configuration { get; }
-
+        
+        public IConfiguration Configuration { get; }    
+        public IMemoryCache MemoryCache { get; }
         /// <summary>
         ///  This method gets called by the runtime. Use this method to add services to the container.
         /// </summary>
         /// <param name="services"></param>        
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            
             services.AddControllers();
             services.AddSingleton<ExceptionHelper>();
             services.AddSingleton<HttpClient>();
             services.AddSingleton<IHttpHandler, HttpHandlers>();
+            services.AddMemoryCache();
+            
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "Weather Info", Description = "Weather Info", Version = "v1" });
@@ -88,7 +90,7 @@ namespace WeatherInfo.API
             app.UseSwaggerUI(options =>
             {
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "Weather Info");
-                options.RoutePrefix = string.Empty;
+                options.RoutePrefix = string.Empty;                
             });
             app.UseAuthorization();
             app.UseHttpsRedirection();
