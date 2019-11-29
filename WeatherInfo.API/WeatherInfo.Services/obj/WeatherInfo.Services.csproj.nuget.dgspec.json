@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Task\\WeatherInfo.API\\WeatherInfo.Services\\WeatherInfo.Services.csproj": {}
+    "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Services\\WeatherInfo.Services.csproj": {}
   },
   "projects": {
-    "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj": {
+    "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj",
+        "projectUniqueName": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj",
         "projectName": "WeatherInfo.Entities",
-        "projectPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj",
+        "projectPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj",
         "packagesPath": "C:\\Users\\Kiran\\.nuget\\packages\\",
-        "outputPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\obj\\",
+        "outputPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj": {
+    "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj",
+        "projectUniqueName": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj",
         "projectName": "WeatherInfo.RequestHandlers",
-        "projectPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj",
+        "projectPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj",
         "packagesPath": "C:\\Users\\Kiran\\.nuget\\packages\\",
-        "outputPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\obj\\",
+        "outputPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -122,14 +122,14 @@
         }
       }
     },
-    "F:\\Task\\WeatherInfo.API\\WeatherInfo.Services\\WeatherInfo.Services.csproj": {
+    "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Services\\WeatherInfo.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Services\\WeatherInfo.Services.csproj",
+        "projectUniqueName": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Services\\WeatherInfo.Services.csproj",
         "projectName": "WeatherInfo.Services",
-        "projectPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Services\\WeatherInfo.Services.csproj",
+        "projectPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Services\\WeatherInfo.Services.csproj",
         "packagesPath": "C:\\Users\\Kiran\\.nuget\\packages\\",
-        "outputPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Services\\obj\\",
+        "outputPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -149,11 +149,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj": {
-                "projectPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj"
+              "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj": {
+                "projectPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj"
               },
-              "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj": {
-                "projectPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj"
+              "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj": {
+                "projectPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj"
               }
             }
           }

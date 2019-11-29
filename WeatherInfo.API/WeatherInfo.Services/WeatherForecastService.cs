@@ -28,6 +28,7 @@ namespace WeatherInfo.Services
                 else
                     apiUrl = APIConstants.API_URL + "?q=" + searchCriteria.City + "&APPID=" + APIConstants.API_KEY;
                 var entityResult = httpHandler.GetRequest<WeatherForecastDetails>(apiUrl, string.Empty);
+                
                 return await Task.FromResult(entityModel.WeatherEntityModelConverter(entityResult));
             }
             catch (Exception ex)
