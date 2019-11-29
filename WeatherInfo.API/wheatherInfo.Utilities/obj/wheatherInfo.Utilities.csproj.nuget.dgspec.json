@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Task\\WeatherInfo.API\\wheatherInfo.Utilities\\wheatherInfo.Utilities.csproj": {}
+    "F:\\interview\\v1\\WeatherInfo.API\\wheatherInfo.Utilities\\wheatherInfo.Utilities.csproj": {}
   },
   "projects": {
-    "F:\\Task\\WeatherInfo.API\\wheatherInfo.Utilities\\wheatherInfo.Utilities.csproj": {
+    "F:\\interview\\v1\\WeatherInfo.API\\wheatherInfo.Utilities\\wheatherInfo.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Task\\WeatherInfo.API\\wheatherInfo.Utilities\\wheatherInfo.Utilities.csproj",
+        "projectUniqueName": "F:\\interview\\v1\\WeatherInfo.API\\wheatherInfo.Utilities\\wheatherInfo.Utilities.csproj",
         "projectName": "wheatherInfo.Utilities",
-        "projectPath": "F:\\Task\\WeatherInfo.API\\wheatherInfo.Utilities\\wheatherInfo.Utilities.csproj",
+        "projectPath": "F:\\interview\\v1\\WeatherInfo.API\\wheatherInfo.Utilities\\wheatherInfo.Utilities.csproj",
         "packagesPath": "C:\\Users\\Kiran\\.nuget\\packages\\",
-        "outputPath": "F:\\Task\\WeatherInfo.API\\wheatherInfo.Utilities\\obj\\",
+        "outputPath": "F:\\interview\\v1\\WeatherInfo.API\\wheatherInfo.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,6 +45,10 @@
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",
