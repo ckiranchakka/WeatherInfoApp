@@ -19,7 +19,7 @@ namespace WeatherInfo.Entities
         public string Day { get; set; }
         public double Pressure { get; set; }
         public double Humdity { get; set; }
-
+        public List<Dayparts> Periods { get; set; }
         public double Speed { get; set; }
         public string Description { get; set; }
         public string WeatherType { get; set; }
@@ -27,6 +27,21 @@ namespace WeatherInfo.Entities
         public string Icon { get; set; }
 
     }
+
+    public class Dayparts
+    {
+        public string Date { get; set; }
+        public DateTime Date_time { get; set; }
+        public string Day { get; set; }
+        public Temperature temperature { get; set; }
+        public double Pressure { get; set; }
+        public double Humdity { get; set; }
+        public double Speed { get; set; }
+        public string Description { get; set; }
+        public string WeatherType { get; set; }
+        public string Icon { get; set; }
+    }
+
     public class Temperature
     {
         public double CelsiusCurrent { get; set; }

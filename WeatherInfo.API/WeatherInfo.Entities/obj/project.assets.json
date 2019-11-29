@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj",
+      "projectUniqueName": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj",
       "projectName": "WeatherInfo.Entities",
-      "projectPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj",
+      "projectPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\WeatherInfo.Entities.csproj",
       "packagesPath": "C:\\Users\\Kiran\\.nuget\\packages\\",
-      "outputPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.Entities\\obj\\",
+      "outputPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

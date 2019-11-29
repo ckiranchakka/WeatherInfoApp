@@ -9,5 +9,6 @@ namespace WeatherInfo.Entities.Constants
 
         public const string API_URL = "http://api.openweathermap.org/data/2.5/forecast";
         public const string API_KEY = "fcadd28326c90c3262054e0e6ca599cd";
+        public const string ICON_URL = "http://openweathermap.org/img/wn/";
     }
 }
