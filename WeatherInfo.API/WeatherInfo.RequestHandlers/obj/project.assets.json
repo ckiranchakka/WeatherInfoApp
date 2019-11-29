@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj",
+      "projectUniqueName": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj",
       "projectName": "WeatherInfo.RequestHandlers",
-      "projectPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj",
+      "projectPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\WeatherInfo.RequestHandlers.csproj",
       "packagesPath": "C:\\Users\\Kiran\\.nuget\\packages\\",
-      "outputPath": "F:\\Task\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\obj\\",
+      "outputPath": "F:\\interview\\v1\\WeatherInfo.API\\WeatherInfo.RequestHandlers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
