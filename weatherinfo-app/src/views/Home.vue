@@ -8,7 +8,7 @@
 <script>
 // @ is an alias to /src
 
-import weather from "@/components/weather.vue";
+import weather from "@/components/weather.vue"
 
 export default {
   name: 'home',
